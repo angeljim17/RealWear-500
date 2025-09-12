@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="hf_override:siguiente video|repetir video|abrir_navegador|mostrar_mensaje|salir_app">
+
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:use_controller="false"
+        app:resize_mode="fit" />
+
+    <!-- Animación final -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animacionFinal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:lottie_rawRes="@raw/ensamble"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="false" />
+
+</FrameLayout>

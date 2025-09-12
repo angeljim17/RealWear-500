@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wearml>
+    <command label="siguiente video" action="com.realwear.skillfactory.SIGUIENTE_VIDEO"/>
+    <command label="repetir video" action="com.realwear.skillfactory.REPETIR_VIDEO"/>
+</wearml>
+
